@@ -239,7 +239,7 @@ export default function BookList() {
 
       <View style={{flexDirection: 'row', backgroundColor: 'lightgreen', marginBottom:5}}>
         <Image
-          source={{uri: 'http://192.168.0.220:3000/images/cover(' + item.bookId + ').jpg'}}
+          source={{uri: 'https://bookz-graphql.onrender.com/images/cover(' + item.bookId + ').jpg'}}
           style={{height: 80, width: 60, margin: 5, marginRight:10}}
         />
         <View style={{justifyContent: 'center', width: '62%'}}>
@@ -348,7 +348,7 @@ export default function BookList() {
               <Text style={styles.headerText}>{title}</Text>
               
               <Image
-                source={{uri: 'http://192.168.0.220:3000/images/cover(' + bookId + ').jpg'}}
+                source={{uri: 'https://bookz-graphql.onrender.com/images/cover(' + bookId + ').jpg'}}
                 style={{height: 300, width: 200, marginVertical: 10, alignSelf: 'center'}}
               />
 
